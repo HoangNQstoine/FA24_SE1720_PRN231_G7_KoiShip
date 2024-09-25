@@ -10,14 +10,14 @@ namespace KoiShip_DB.Data.Base
 {
     public class GenericRepository<T> where T : class
     {
-        protected KoiShip_DBContext _context;
+        protected KoiShipDbContext _context;
 
         public GenericRepository()
         {
-            _context ??= new KoiShip_DBContext(); 
+            _context ??= new KoiShipDbContext(); 
         }
 
-        public GenericRepository(KoiShip_DBContext context)
+        public GenericRepository(KoiShipDbContext context)
         {
             _context = context;
         }

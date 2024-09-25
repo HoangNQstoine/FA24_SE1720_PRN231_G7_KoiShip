@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RiuXqIW2C58IicmchbUsIkA38qEZNThcxGZGy2qZtWw=",
+  "Source": "KoiShip.API",
+  "BasePath": "_content/KoiShip.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

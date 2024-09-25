@@ -12,6 +12,6 @@ namespace KoiShip_DB.Data.Repository
     public class ShippingOrdersRepository : GenericRepository<ShippingOrder>
     {
         public ShippingOrdersRepository() { }
-        public ShippingOrdersRepository(KoiShip_DBContext context) => _context = context;
+        public ShippingOrdersRepository(KoiShipDbContext context) => _context = context;
     }
 }

@@ -10,12 +10,12 @@ namespace KoiShip_DB.Data
 {
     public class UnitOfWork
     {
-        private KoiShip_DBContext context;
+        private KoiShipDbContext context;
         private ShippingOrdersRepository shippingOrdersRepository;
 
         public UnitOfWork()
         {
-            context ??= new KoiShip_DBContext();
+            context ??= new KoiShipDbContext();
         }
         public ShippingOrdersRepository ShippingOrdersRepository
         {

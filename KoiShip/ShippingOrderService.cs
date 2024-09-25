@@ -146,7 +146,7 @@ namespace KoiShip.Service
             {
                 return new BusinessResult(Const.ERROR_EXCEPTION, e.Message);
             }
-        }
+        }   
 
         public async Task<IBusinessResult> UpdateShippingOrder(ShippingOrder shippingOrder)
         {

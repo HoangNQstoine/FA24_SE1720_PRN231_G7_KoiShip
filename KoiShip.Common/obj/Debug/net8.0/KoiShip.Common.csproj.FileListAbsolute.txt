@@ -1,0 +1,11 @@
+E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip.Common\bin\Debug\net8.0\KoiShip.Common.deps.json
+E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip.Common\bin\Debug\net8.0\KoiShip.Common.dll
+E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip.Common\bin\Debug\net8.0\KoiShip.Common.pdb
+E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip.Common\obj\Debug\net8.0\KoiShip.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip.Common\obj\Debug\net8.0\KoiShip.Common.AssemblyInfoInputs.cache
+E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip.Common\obj\Debug\net8.0\KoiShip.Common.AssemblyInfo.cs
+E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip.Common\obj\Debug\net8.0\KoiShip.Common.csproj.CoreCompileInputs.cache
+E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip.Common\obj\Debug\net8.0\KoiShip.Common.dll
+E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip.Common\obj\Debug\net8.0\refint\KoiShip.Common.dll
+E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip.Common\obj\Debug\net8.0\KoiShip.Common.pdb
+E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip.Common\obj\Debug\net8.0\ref\KoiShip.Common.dll
