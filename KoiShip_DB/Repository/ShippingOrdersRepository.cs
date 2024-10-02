@@ -1,17 +1,17 @@
-﻿using System;
-using KoiShip_DB.Data.Base;
+﻿using KoiShip_DB.Data.Base;
 using KoiShip_DB.Data.Models;
+using Microsoft.EntityFrameworkCore;
 
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace KoiShip_DB.Data.Repository
+public class ShippingOrdersRepository : GenericRepository<ShippingOrder>
 {
-    public class ShippingOrdersRepository : GenericRepository<ShippingOrder>
+    public ShippingOrdersRepository(KoiShipDbContext context) : base(context) { }
+
+    public async Task<List<ShippingOrder>> GetAllAsync()
     {
-        public ShippingOrdersRepository() { }
-        public ShippingOrdersRepository(KoiShipDbContext context) => _context = context;
+        return await _context.Set<ShippingOrder>()
+                             .Include(s => s.Pricing)
+                             .Include(s => s.ShipMent)
+                             .Include(s => s.User)
+                             .ToListAsync();
     }
 }

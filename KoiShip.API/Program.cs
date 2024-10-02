@@ -1,5 +1,6 @@
 using KoiShip.Service;
 using KoiShip_DB.Data.Models;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,11 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<KoiShipDbContext>();
 builder.Services.AddScoped<IShippingOrderService, ShippingOrderService>();
+builder.Services.AddControllers()
+                .AddJsonOptions(options =>
+                {
+                    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+                });
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

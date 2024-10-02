@@ -1,12 +1,12 @@
-E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\bin\Debug\net8.0\KoiShip_DB.Data.deps.json
-E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\bin\Debug\net8.0\KoiShip_DB.Data.runtimeconfig.json
-E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\bin\Debug\net8.0\KoiShip_DB.Data.dll
-E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\bin\Debug\net8.0\KoiShip_DB.Data.pdb
 E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\obj\Debug\net8.0\KoiShip_DB.Data.csproj.AssemblyReference.cache
 E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\obj\Debug\net8.0\KoiShip_DB.Data.GeneratedMSBuildEditorConfig.editorconfig
 E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\obj\Debug\net8.0\KoiShip_DB.Data.AssemblyInfoInputs.cache
 E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\obj\Debug\net8.0\KoiShip_DB.Data.AssemblyInfo.cs
 E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\obj\Debug\net8.0\KoiShip_DB.Data.csproj.CoreCompileInputs.cache
+E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\bin\Debug\net8.0\KoiShip_DB.Data.deps.json
+E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\bin\Debug\net8.0\KoiShip_DB.Data.runtimeconfig.json
+E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\bin\Debug\net8.0\KoiShip_DB.Data.dll
+E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\bin\Debug\net8.0\KoiShip_DB.Data.pdb
 E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\obj\Debug\net8.0\KoiShip_DB.Data.dll
 E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\obj\Debug\net8.0\refint\KoiShip_DB.Data.dll
 E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip_DB\obj\Debug\net8.0\KoiShip_DB.Data.pdb

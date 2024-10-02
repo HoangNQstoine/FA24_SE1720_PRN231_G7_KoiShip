@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoiShip.Service", "KoiShip\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoiShip.Common", "KoiShip.Common\KoiShip.Common.csproj", "{448D4AED-BDD1-4CF5-B0E1-DCD393802715}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoiShip.API", "KoiShip.API\KoiShip.API.csproj", "{F9408363-6023-4221-9825-11D12EDD9453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoiShip.API", "KoiShip.API\KoiShip.API.csproj", "{F9408363-6023-4221-9825-11D12EDD9453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoiShip.MVCWebApp", "KoiShip.MVCWebApp\KoiShip.MVCWebApp.csproj", "{038AAABE-67A9-4B20-8FEC-80E031DADEAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F9408363-6023-4221-9825-11D12EDD9453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9408363-6023-4221-9825-11D12EDD9453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9408363-6023-4221-9825-11D12EDD9453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{038AAABE-67A9-4B20-8FEC-80E031DADEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{038AAABE-67A9-4B20-8FEC-80E031DADEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{038AAABE-67A9-4B20-8FEC-80E031DADEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{038AAABE-67A9-4B20-8FEC-80E031DADEAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
