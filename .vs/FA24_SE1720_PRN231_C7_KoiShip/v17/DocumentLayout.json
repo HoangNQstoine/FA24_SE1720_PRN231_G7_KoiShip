@@ -1,49 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|e:\\cn8\\prn231\\fa24_se1720_prn231_c7_koiship\\koiship_db\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|solutionrelative:koiship_db\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship.mvcwebapp\\controllers\\shippingorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|solutionrelative:koiship.mvcwebapp\\controllers\\shippingorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|e:\\cn8\\prn231\\fa24_se1720_prn231_c7_koiship\\koiship_db\\repository\\shippingordersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|solutionrelative:koiship_db\\repository\\shippingordersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship.mvcwebapp\\views\\shippingorders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|solutionrelative:koiship.mvcwebapp\\views\\shippingorders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|e:\\cn8\\prn231\\fa24_se1720_prn231_c7_koiship\\koiship_db\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|solutionrelative:koiship_db\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5BD0E92-C2B9-4189-B534-2DCD5C53540F}|KoiShip\\KoiShip.Service.csproj|e:\\cn8\\prn231\\fa24_se1720_prn231_c7_koiship\\koiship\\shippingorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5BD0E92-C2B9-4189-B534-2DCD5C53540F}|KoiShip\\KoiShip.Service.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship\\shippingorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5BD0E92-C2B9-4189-B534-2DCD5C53540F}|KoiShip\\KoiShip.Service.csproj|solutionrelative:koiship\\shippingorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|e:\\cn8\\prn231\\fa24_se1720_prn231_c7_koiship\\koiship_db\\models\\koiship_dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|solutionrelative:koiship_db\\models\\koiship_dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9408363-6023-4221-9825-11D12EDD9453}|KoiShip.API\\KoiShip.API.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship.api\\controllers\\shippingorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9408363-6023-4221-9825-11D12EDD9453}|KoiShip.API\\KoiShip.API.csproj|solutionrelative:koiship.api\\controllers\\shippingorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5BD0E92-C2B9-4189-B534-2DCD5C53540F}|KoiShip\\KoiShip.Service.csproj|e:\\cn8\\prn231\\fa24_se1720_prn231_c7_koiship\\koiship\\base\\businessresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5BD0E92-C2B9-4189-B534-2DCD5C53540F}|KoiShip\\KoiShip.Service.csproj|solutionrelative:koiship\\base\\businessresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship_db\\dto\\shippingorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|solutionrelative:koiship_db\\dto\\shippingorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|e:\\cn8\\prn231\\fa24_se1720_prn231_c7_koiship\\koiship_db\\models\\shippingorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship.mvcwebapp\\dto\\shippingorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|solutionrelative:koiship.mvcwebapp\\dto\\shippingorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship_db\\models\\shippingorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|solutionrelative:koiship_db\\models\\shippingorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{448D4AED-BDD1-4CF5-B0E1-DCD393802715}|KoiShip.Common\\KoiShip.Common.csproj|e:\\cn8\\prn231\\fa24_se1720_prn231_c7_koiship\\koiship.common\\const.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448D4AED-BDD1-4CF5-B0E1-DCD393802715}|KoiShip.Common\\KoiShip.Common.csproj|solutionrelative:koiship.common\\const.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship.mvcwebapp\\views\\shippingorders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|solutionrelative:koiship.mvcwebapp\\views\\shippingorders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|e:\\cn8\\prn231\\fa24_se1720_prn231_c7_koiship\\koiship_db\\repository\\koifishrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|solutionrelative:koiship_db\\repository\\koifishrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship.mvcwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|solutionrelative:koiship.mvcwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc_fpt\\cn8_fpt\\Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{C5BD0E92-C2B9-4189-B534-2DCD5C53540F}|KoiShip\\KoiShip.Service.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship\\koifishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5BD0E92-C2B9-4189-B534-2DCD5C53540F}|KoiShip\\KoiShip.Service.csproj|solutionrelative:koiship\\koifishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|e:\\cn8\\prn231\\fa24_se1720_prn231_c7_koiship\\koiship_db\\koiship_db.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|solutionrelative:koiship_db\\koiship_db.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship_db\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|solutionrelative:koiship_db\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship_db\\models\\koishipdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CDC2807-8AF0-4B10-BD08-4994FE239973}|KoiShip_DB\\KoiShip_DB.Data.csproj|solutionrelative:koiship_db\\models\\koishipdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship.mvcwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|solutionrelative:koiship.mvcwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\Zalo Received Files\\PE_PRN231.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship.mvcwebapp\\views\\pricings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|solutionrelative:koiship.mvcwebapp\\views\\pricings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship.mvcwebapp\\controllers\\pricingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038AAABE-67A9-4B20-8FEC-80E031DADEAB}|KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj|solutionrelative:koiship.mvcwebapp\\controllers\\pricingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9408363-6023-4221-9825-11D12EDD9453}|KoiShip.API\\KoiShip.API.csproj|c:\\users\\admin\\desktop\\project_prn\\fa24_se1720_prn231_g7_koiship\\koiship.api\\controllers\\shipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9408363-6023-4221-9825-11D12EDD9453}|KoiShip.API\\KoiShip.API.csproj|solutionrelative:koiship.api\\controllers\\shipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,144 +77,310 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:17:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ShippingOrder.cs",
-              "DocumentMoniker": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip_DB\\Models\\ShippingOrder.cs",
-              "RelativeDocumentMoniker": "KoiShip_DB\\Models\\ShippingOrder.cs",
-              "ToolTip": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip_DB\\Models\\ShippingOrder.cs",
-              "RelativeToolTip": "KoiShip_DB\\Models\\ShippingOrder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAjAAAA",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "KoiShip.MVCWebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\appsettings.json",
+              "RelativeToolTip": "KoiShip.MVCWebApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-10T20:33:10.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KoiShipDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\Models\\KoiShipDbContext.cs",
+              "RelativeDocumentMoniker": "KoiShip_DB\\Models\\KoiShipDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\Models\\KoiShipDbContext.cs",
+              "RelativeToolTip": "KoiShip_DB\\Models\\KoiShipDbContext.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAwEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T01:41:39.994Z"
+              "WhenOpened": "2024-11-10T20:32:26.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PE_PRN231.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Zalo Received Files\\PE_PRN231.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\Zalo Received Files\\PE_PRN231.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\Zalo Received Files\\PE_PRN231.cs",
+              "RelativeToolTip": "..\\..\\..\\Documents\\Zalo Received Files\\PE_PRN231.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAAK0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:31:32.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\Views\\Pricings\\Create.cshtml",
+              "RelativeDocumentMoniker": "KoiShip.MVCWebApp\\Views\\Pricings\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\Views\\Pricings\\Create.cshtml",
+              "RelativeToolTip": "KoiShip.MVCWebApp\\Views\\Pricings\\Create.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T20:19:31.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShippingOrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\Controllers\\ShippingOrdersController.cs",
+              "RelativeDocumentMoniker": "KoiShip.MVCWebApp\\Controllers\\ShippingOrdersController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\Controllers\\ShippingOrdersController.cs",
+              "RelativeToolTip": "KoiShip.MVCWebApp\\Controllers\\ShippingOrdersController.cs",
+              "ViewState": "AQIAACUBAAAAAAAAAAAAwGUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:11:03.798Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Const.cs",
-              "DocumentMoniker": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.Common\\Const.cs",
-              "RelativeDocumentMoniker": "KoiShip.Common\\Const.cs",
-              "ToolTip": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.Common\\Const.cs",
-              "RelativeToolTip": "KoiShip.Common\\Const.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T01:15:47.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BusinessResult.cs",
-              "DocumentMoniker": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip\\Base\\BusinessResult.cs",
-              "RelativeDocumentMoniker": "KoiShip\\Base\\BusinessResult.cs",
-              "ToolTip": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip\\Base\\BusinessResult.cs",
-              "RelativeToolTip": "KoiShip\\Base\\BusinessResult.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T01:02:27.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip_DB\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "KoiShip_DB\\UnitOfWork.cs",
-              "ToolTip": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip_DB\\UnitOfWork.cs",
-              "RelativeToolTip": "KoiShip_DB\\UnitOfWork.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAADgvw0AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T00:47:09.873Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\Views\\ShippingOrders\\Create.cshtml",
+              "RelativeDocumentMoniker": "KoiShip.MVCWebApp\\Views\\ShippingOrders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\Views\\ShippingOrders\\Create.cshtml",
+              "RelativeToolTip": "KoiShip.MVCWebApp\\Views\\ShippingOrders\\Create.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAABAAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T20:44:30.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ShippingOrderService.cs",
-              "DocumentMoniker": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip\\ShippingOrderService.cs",
-              "RelativeDocumentMoniker": "KoiShip\\ShippingOrderService.cs",
-              "ToolTip": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip\\ShippingOrderService.cs",
-              "RelativeToolTip": "KoiShip\\ShippingOrderService.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAA2wHkAAAAjAAAA",
+              "Title": "ShippingOrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\Controllers\\ShippingOrdersController.cs",
+              "RelativeDocumentMoniker": "KoiShip.API\\Controllers\\ShippingOrdersController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\Controllers\\ShippingOrdersController.cs",
+              "RelativeToolTip": "KoiShip.API\\Controllers\\ShippingOrdersController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAADwvzYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T00:45:25.1Z",
+              "WhenOpened": "2024-11-10T20:14:12.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShippingOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\ShippingOrderService.cs",
+              "RelativeDocumentMoniker": "KoiShip\\ShippingOrderService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\ShippingOrderService.cs",
+              "RelativeToolTip": "KoiShip\\ShippingOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T21:08:41.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ShippingOrdersRepository.cs",
-              "DocumentMoniker": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip_DB\\Repository\\ShippingOrdersRepository.cs",
-              "RelativeDocumentMoniker": "KoiShip_DB\\Repository\\ShippingOrdersRepository.cs",
-              "ToolTip": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip_DB\\Repository\\ShippingOrdersRepository.cs",
-              "RelativeToolTip": "KoiShip_DB\\Repository\\ShippingOrdersRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA9AAAA",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\Views\\ShippingOrders\\Details.cshtml",
+              "RelativeDocumentMoniker": "KoiShip.MVCWebApp\\Views\\ShippingOrders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\Views\\ShippingOrders\\Details.cshtml",
+              "RelativeToolTip": "KoiShip.MVCWebApp\\Views\\ShippingOrders\\Details.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T20:44:38.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShippingOrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\DTO\\ShippingOrderDTO.cs",
+              "RelativeDocumentMoniker": "KoiShip_DB\\DTO\\ShippingOrderDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\DTO\\ShippingOrderDTO.cs",
+              "RelativeToolTip": "KoiShip_DB\\DTO\\ShippingOrderDTO.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T00:41:11.795Z",
+              "WhenOpened": "2024-11-10T21:08:07.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShippingOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\Models\\ShippingOrder.cs",
+              "RelativeDocumentMoniker": "KoiShip_DB\\Models\\ShippingOrder.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\Models\\ShippingOrder.cs",
+              "RelativeToolTip": "KoiShip_DB\\Models\\ShippingOrder.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:40:59.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "KoiFishRepository.cs",
-              "DocumentMoniker": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip_DB\\Repository\\KoiFishRepository.cs",
-              "RelativeDocumentMoniker": "KoiShip_DB\\Repository\\KoiFishRepository.cs",
-              "ToolTip": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip_DB\\Repository\\KoiFishRepository.cs",
-              "RelativeToolTip": "KoiShip_DB\\Repository\\KoiFishRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "KoiShip.MVCWebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\Program.cs",
+              "RelativeToolTip": "KoiShip.MVCWebApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T02:02:10.184Z"
+              "WhenOpened": "2024-11-10T20:47:34.935Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip_DB\\Base\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "KoiShip_DB\\Base\\GenericRepository.cs",
-              "ToolTip": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip_DB\\Base\\GenericRepository.cs",
-              "RelativeToolTip": "KoiShip_DB\\Base\\GenericRepository.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAJAAAA",
+              "DocumentIndex": 5,
+              "Title": "ShippingOrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\DTO\\ShippingOrderDTO.cs",
+              "RelativeDocumentMoniker": "KoiShip.MVCWebApp\\DTO\\ShippingOrderDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\DTO\\ShippingOrderDTO.cs",
+              "RelativeToolTip": "KoiShip.MVCWebApp\\DTO\\ShippingOrderDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T01:38:38.814Z",
+              "WhenOpened": "2024-11-10T21:04:34.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "KoiFishService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\KoiFishService.cs",
+              "RelativeDocumentMoniker": "KoiShip\\KoiFishService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\KoiFishService.cs",
+              "RelativeToolTip": "KoiShip\\KoiFishService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:44:17.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "KoiShip_DB.Data.csproj",
-              "DocumentMoniker": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj",
-              "RelativeDocumentMoniker": "KoiShip_DB\\KoiShip_DB.Data.csproj",
-              "ToolTip": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj",
-              "RelativeToolTip": "KoiShip_DB\\KoiShip_DB.Data.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-12T01:35:37.535Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "KoiShip_DBContext.cs",
-              "DocumentMoniker": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip_DB\\Models\\KoiShip_DBContext.cs",
-              "RelativeDocumentMoniker": "KoiShip_DB\\Models\\KoiShip_DBContext.cs",
-              "ToolTip": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip_DB\\Models\\KoiShip_DBContext.cs",
-              "RelativeToolTip": "KoiShip_DB\\Models\\KoiShip_DBContext.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAswC4AAABRAAAA",
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "KoiShip_DB\\Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "KoiShip_DB\\Repository\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T01:30:18.219Z"
+              "WhenOpened": "2024-11-10T20:42:05.006Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Readme.txt",
-              "DocumentMoniker": "D:\\hoc_fpt\\cn8_fpt\\Readme.txt",
-              "ToolTip": "D:\\hoc_fpt\\cn8_fpt\\Readme.txt",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-12T01:21:40.113Z"
+              "DocumentIndex": 15,
+              "Title": "PricingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\Controllers\\PricingsController.cs",
+              "RelativeDocumentMoniker": "KoiShip.MVCWebApp\\Controllers\\PricingsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\Controllers\\PricingsController.cs",
+              "RelativeToolTip": "KoiShip.MVCWebApp\\Controllers\\PricingsController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:18:42.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ShipMentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\Controllers\\ShipMentsController.cs",
+              "RelativeDocumentMoniker": "KoiShip.API\\Controllers\\ShipMentsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\Controllers\\ShipMentsController.cs",
+              "RelativeToolTip": "KoiShip.API\\Controllers\\ShipMentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:10:33.918Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }

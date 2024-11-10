@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace KoiShip_DB.Data.Models;
 
@@ -32,14 +33,25 @@ public partial class KoiShipDbContext : DbContext
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=(local);uid=sa;pwd=12345;database=KoiShip_DB;TrustServerCertificate=True");
+    {
+        optionsBuilder.UseSqlServer(GetConnectionString());
+        optionsBuilder.EnableSensitiveDataLogging();
+    }
+
+    private string GetConnectionString()
+    {
+        IConfiguration configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", true, true).Build();
+        return configuration["ConnectionStrings:DefaultConnection"];
+    }
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Category__3214EC070BC6C43E");
+            entity.HasKey(e => e.Id).HasName("PK__Category__3214EC07B597D9DE");
 
             entity.ToTable("Category");
 
@@ -49,7 +61,7 @@ public partial class KoiShipDbContext : DbContext
 
         modelBuilder.Entity<KoiFish>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__koiFish__3214EC070F975522");
+            entity.HasKey(e => e.Id).HasName("PK__koiFish__3214EC07075B03F5");
 
             entity.ToTable("koiFish");
 
@@ -61,18 +73,16 @@ public partial class KoiShipDbContext : DbContext
 
             entity.HasOne(d => d.Category).WithMany(p => p.KoiFishes)
                 .HasForeignKey(d => d.CategoryId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__koiFish__Categor__1273C1CD");
+                .HasConstraintName("FK__koiFish__Categor__2E1BDC42");
 
             entity.HasOne(d => d.User).WithMany(p => p.KoiFishes)
                 .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__koiFish__User_Id__117F9D94");
+                .HasConstraintName("FK__koiFish__User_Id__2D27B809");
         });
 
         modelBuilder.Entity<Pricing>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Pricing__3214EC0707F6335A");
+            entity.HasKey(e => e.Id).HasName("PK__Pricing__3214EC07D6BA7ABD");
 
             entity.ToTable("Pricing");
 
@@ -85,7 +95,7 @@ public partial class KoiShipDbContext : DbContext
 
         modelBuilder.Entity<Role>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Role__3214EC077F60ED59");
+            entity.HasKey(e => e.Id).HasName("PK__Role__3214EC0731E683C7");
 
             entity.ToTable("Role");
 
@@ -94,7 +104,7 @@ public partial class KoiShipDbContext : DbContext
 
         modelBuilder.Entity<ShipMent>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__ShipMent__3214EC0715502E78");
+            entity.HasKey(e => e.Id).HasName("PK__ShipMent__3214EC0794F45232");
 
             entity.ToTable("ShipMent");
 
@@ -111,13 +121,12 @@ public partial class KoiShipDbContext : DbContext
 
             entity.HasOne(d => d.User).WithMany(p => p.ShipMents)
                 .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ShipMent__User_I__173876EA");
+                .HasConstraintName("FK__ShipMent__User_I__30F848ED");
         });
 
         modelBuilder.Entity<ShippingOrder>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Shipping__3214EC071A14E395");
+            entity.HasKey(e => e.Id).HasName("PK__Shipping__3214EC07A2AE5100");
 
             entity.Property(e => e.AdressTo).HasColumnName("Adress_To");
             entity.Property(e => e.EstimatedDeliveryDate).HasColumnType("datetime");
@@ -130,42 +139,38 @@ public partial class KoiShipDbContext : DbContext
 
             entity.HasOne(d => d.Pricing).WithMany(p => p.ShippingOrders)
                 .HasForeignKey(d => d.PricingId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ShippingO__Prici__1DE57479");
+                .HasConstraintName("FK__ShippingO__Prici__35BCFE0A");
 
             entity.HasOne(d => d.ShipMent).WithMany(p => p.ShippingOrders)
                 .HasForeignKey(d => d.ShipMentId)
-                .HasConstraintName("FK__ShippingO__ShipM__1CF15040");
+                .HasConstraintName("FK__ShippingO__ShipM__34C8D9D1");
 
             entity.HasOne(d => d.User).WithMany(p => p.ShippingOrders)
                 .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ShippingO__User___1BFD2C07");
+                .HasConstraintName("FK__ShippingO__User___33D4B598");
         });
 
         modelBuilder.Entity<ShippingOrderDetail>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Shipping__3214EC0720C1E124");
+            entity.HasKey(e => e.Id).HasName("PK__Shipping__3214EC07402A9EED");
 
-            entity.HasIndex(e => e.KoiFishId, "UQ__Shipping__7588329A239E4DCF").IsUnique();
+            entity.HasIndex(e => e.KoiFishId, "UQ__Shipping__7588329A92787F90").IsUnique();
 
             entity.Property(e => e.KoiFishId).HasColumnName("KoiFish_Id");
             entity.Property(e => e.ShippingOrdersId).HasColumnName("ShippingOrders_Id");
 
             entity.HasOne(d => d.KoiFish).WithOne(p => p.ShippingOrderDetail)
                 .HasForeignKey<ShippingOrderDetail>(d => d.KoiFishId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ShippingO__KoiFi__25869641");
+                .HasConstraintName("FK__ShippingO__KoiFi__398D8EEE");
 
             entity.HasOne(d => d.ShippingOrders).WithMany(p => p.ShippingOrderDetails)
                 .HasForeignKey(d => d.ShippingOrdersId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ShippingO__Shipp__267ABA7A");
+                .HasConstraintName("FK__ShippingO__Shipp__3A81B327");
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__User__3214EC0703317E3D");
+            entity.HasKey(e => e.Id).HasName("PK__User__3214EC0744C17265");
 
             entity.ToTable("User");
 
@@ -183,8 +188,7 @@ public partial class KoiShipDbContext : DbContext
 
             entity.HasOne(d => d.Role).WithMany(p => p.Users)
                 .HasForeignKey(d => d.RoleId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__User__Role_Id__0519C6AF");
+                .HasConstraintName("FK__User__Role_Id__267ABA7A");
         });
 
         OnModelCreatingPartial(modelBuilder);

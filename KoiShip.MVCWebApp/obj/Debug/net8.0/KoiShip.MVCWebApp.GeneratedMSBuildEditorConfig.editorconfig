@@ -17,59 +17,99 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KoiShip.MVCWebApp
 build_property.RootNamespace = KoiShip.MVCWebApp
-build_property.ProjectDir = E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip.MVCWebApp\
+build_property.ProjectDir = C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\CN8\PRN231\FA24_SE1720_PRN231_C7_KoiShip\KoiShip.MVCWebApp
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/CN8/PRN231/FA24_SE1720_PRN231_C7_KoiShip/KoiShip.MVCWebApp/Views/Home/Index.cshtml]
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CN8/PRN231/FA24_SE1720_PRN231_C7_KoiShip/KoiShip.MVCWebApp/Views/Home/Privacy.cshtml]
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CN8/PRN231/FA24_SE1720_PRN231_C7_KoiShip/KoiShip.MVCWebApp/Views/Shared/Error.cshtml]
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/KoiFishs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29pRmlzaHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/KoiFishs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29pRmlzaHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/KoiFishs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29pRmlzaHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/KoiFishs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29pRmlzaHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/KoiFishs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29pRmlzaHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/Pricings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpY2luZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/Pricings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpY2luZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/Pricings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpY2luZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/Pricings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpY2luZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/Pricings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpY2luZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CN8/PRN231/FA24_SE1720_PRN231_C7_KoiShip/KoiShip.MVCWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CN8/PRN231/FA24_SE1720_PRN231_C7_KoiShip/KoiShip.MVCWebApp/Views/ShippingOrders/Create.cshtml]
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/ShippingOrders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBpbmdPcmRlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CN8/PRN231/FA24_SE1720_PRN231_C7_KoiShip/KoiShip.MVCWebApp/Views/ShippingOrders/Delete.cshtml]
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/ShippingOrders/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBpbmdPcmRlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CN8/PRN231/FA24_SE1720_PRN231_C7_KoiShip/KoiShip.MVCWebApp/Views/ShippingOrders/Details.cshtml]
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/ShippingOrders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBpbmdPcmRlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CN8/PRN231/FA24_SE1720_PRN231_C7_KoiShip/KoiShip.MVCWebApp/Views/ShippingOrders/Edit.cshtml]
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/ShippingOrders/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBpbmdPcmRlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CN8/PRN231/FA24_SE1720_PRN231_C7_KoiShip/KoiShip.MVCWebApp/Views/ShippingOrders/Index.cshtml]
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/ShippingOrders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBpbmdPcmRlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CN8/PRN231/FA24_SE1720_PRN231_C7_KoiShip/KoiShip.MVCWebApp/Views/_ViewImports.cshtml]
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CN8/PRN231/FA24_SE1720_PRN231_C7_KoiShip/KoiShip.MVCWebApp/Views/_ViewStart.cshtml]
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CN8/PRN231/FA24_SE1720_PRN231_C7_KoiShip/KoiShip.MVCWebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/Admin/Desktop/project_PRN/FA24_SE1720_PRN231_G7_KoiShip/KoiShip.MVCWebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-no8vjzwtqj

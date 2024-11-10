@@ -4,29 +4,23 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using KoiShip_DB.Data.Models;
-using KoiShip.Common;
 using Newtonsoft.Json;
+using KoiShip.Common;
 using KoiShip.Service.Base;
-using Azure;
+using System.Net.Http;
+using KoiShip_DB.Data.Models;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using KoiShip.MVCWebApp.DTO;
 
 namespace KoiShip.MVCWebApp.Controllers
 {
     public class ShippingOrdersController : Controller
     {
-        private readonly KoiShipDbContext _context;
-
-        public ShippingOrdersController(KoiShipDbContext context)
-        {
-            _context = context;
-        }
-
         // GET: ShippingOrders
         public async Task<IActionResult> Index()
         {
+            List<ShippingOrder> orders = new List<ShippingOrder>();
+
             using (var httpClient = new HttpClient())
             {
                 using (var response = await httpClient.GetAsync(Const.API + "ShippingOrders"))
@@ -38,41 +32,13 @@ namespace KoiShip.MVCWebApp.Controllers
 
                         if (result != null && result.Data != null)
                         {
-                            var data = JsonConvert.DeserializeObject<List<ShippingOrder>>(result.Data.ToString());
-                            return View(data);
-                        }
-                    }
-                }
-            }
-            return View(new List<ShippingOrder>());
-    }
-        public async Task<IActionResult> Delete(int? id)
-        {
-
-            if (ModelState.IsValid)
-            {
-                using (var httpClient = new HttpClient())
-                {
-                    using (var respones = await httpClient.GetAsync(Const.API + "ShippingOrders/" + id))
-                    {
-                        if (respones.IsSuccessStatusCode)
-                        {
-                            var content = await respones.Content.ReadAsStringAsync();
-                            var result = JsonConvert.DeserializeObject<BusinessResult>(content);
-
-                            if (result != null && result.Data != null)
-                            {
-                                var data = JsonConvert.DeserializeObject<ShippingOrder>(result.Data.ToString());
-                                return View(data); 
-
-                            }
-                          
+                            orders = JsonConvert.DeserializeObject<List<ShippingOrder>>(result.Data.ToString());
                         }
                     }
                 }
             }
 
-            return View(new ShippingOrder());
+            return View(orders);
         }
 
         // GET: ShippingOrders/Details/5
@@ -83,11 +49,25 @@ namespace KoiShip.MVCWebApp.Controllers
                 return NotFound();
             }
 
-            var shippingOrder = await _context.ShippingOrders
-                .Include(s => s.Pricing)
-                .Include(s => s.ShipMent)
-                .Include(s => s.User)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            ShippingOrder shippingOrder = null;
+
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync(Const.API + "ShippingOrders/" + id))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var content = await response.Content.ReadAsStringAsync();
+                        var result = JsonConvert.DeserializeObject<BusinessResult>(content);
+
+                        if (result != null && result.Data != null)
+                        {
+                            shippingOrder = JsonConvert.DeserializeObject<ShippingOrder>(result.Data.ToString());
+                        }
+                    }
+                }
+            }
+
             if (shippingOrder == null)
             {
                 return NotFound();
@@ -97,60 +77,73 @@ namespace KoiShip.MVCWebApp.Controllers
         }
 
         // GET: ShippingOrders/Create
-        public IActionResult Create()
+        // GET: ShippingOrders/Create
+        public async Task<IActionResult> Create()
         {
-            ViewData["PricingId"] = new SelectList(_context.Pricings, "Id", "Currency");
-            ViewData["ShipMentId"] = new SelectList(_context.ShipMents, "Id", "Description");
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Address");
+            // Fetch the data for the dropdowns
+            var pricingList = await GetPricingList();
+            var shipMentList = await GetShipMentList();
+            var userList = await GetUserList();
+
+            // Populate ViewData with the dropdown lists
+            ViewData["PricingId"] = new SelectList(pricingList, "Id", "Currency");
+            ViewData["ShipMentId"] = new SelectList(shipMentList, "Id", "Description");
+            ViewData["UserId"] = new SelectList(userList, "Id", "UserName");
+
             return View();
         }
 
         // POST: ShippingOrders/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(/*[Bind("Id,UserId,PricingId,ShipMentId,AdressTo,PhoneNumber,TotalPrice,Description,OrderDate,ShippingDate,EstimatedDeliveryDate,Status")]*/ ShippingOrder shippingOrder)
+        public async Task<IActionResult> Create(ShippingOrderDTO shippingOrder)
         {
-            bool saveStatus = false;
+            // Fetch the data again for the dropdowns to preserve selection after post
+            var pricingList = await GetPricingList();
+            var shipMentList = await GetShipMentList();
+            var userList = await GetUserList();
+
+            // Set ViewData for dropdowns to maintain the selected value after postback
+            ViewData["PricingId"] = new SelectList(pricingList, "Id", "Currency", shippingOrder.PricingId);
+            ViewData["ShipMentId"] = new SelectList(shipMentList, "Id", "Description", shippingOrder.ShipMentId);
+            ViewData["UserId"] = new SelectList(userList, "Id", "UserName", shippingOrder.UserId);
 
             if (ModelState.IsValid)
             {
+                bool saveStatus = false;
+
                 using (var httpClient = new HttpClient())
                 {
-                    using (var respones = await httpClient.PostAsJsonAsync(Const.API + "ShippingOrders/" , shippingOrder))
+                    using (var response = await httpClient.PostAsJsonAsync(Const.API + "ShippingOrders", shippingOrder))
                     {
-                        if (respones.IsSuccessStatusCode)
+                        if (response.IsSuccessStatusCode)
                         {
-                            var content = await respones.Content.ReadAsStringAsync();
+                            var content = await response.Content.ReadAsStringAsync();
                             var result = JsonConvert.DeserializeObject<BusinessResult>(content);
 
                             if (result != null && result.Status == Const.SUCCESS_DELETE_CODE)
                             {
                                 saveStatus = true;
                             }
-                            else
-                            {
-                                saveStatus = false;
-                            }
                         }
                     }
                 }
+
+                if (saveStatus)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                else
+                {
+                    // You can log the error or show an error message here
+                    ModelState.AddModelError(string.Empty, "Failed to save the shipping order.");
+                }
             }
 
-            if (saveStatus)
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            else
-            {
-                ViewData["PricingId"] = new SelectList(_context.Pricings, "Id", "Currency", shippingOrder.PricingId);
-                ViewData["ShipMentId"] = new SelectList(_context.ShipMents, "Id", "Description", shippingOrder.ShipMentId);
-                ViewData["UserId"] = new SelectList(_context.Users, "Id", "Address", shippingOrder.UserId);
-                return View(shippingOrder);
-            }
-       
+            // Return the same view with populated dropdowns if the model is invalid
+            return View(shippingOrder);
         }
+
 
         // GET: ShippingOrders/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -160,20 +153,42 @@ namespace KoiShip.MVCWebApp.Controllers
                 return NotFound();
             }
 
-            var shippingOrder = await _context.ShippingOrders.FindAsync(id);
+            ShippingOrder shippingOrder = null;
+
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync(Const.API + "ShippingOrders/" + id))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var content = await response.Content.ReadAsStringAsync();
+                        var result = JsonConvert.DeserializeObject<BusinessResult>(content);
+
+                        if (result != null && result.Data != null)
+                        {
+                            shippingOrder = JsonConvert.DeserializeObject<ShippingOrder>(result.Data.ToString());
+                        }
+                    }
+                }
+            }
+
             if (shippingOrder == null)
             {
                 return NotFound();
             }
-            ViewData["PricingId"] = new SelectList(_context.Pricings, "Id", "Currency", shippingOrder.PricingId);
-            ViewData["ShipMentId"] = new SelectList(_context.ShipMents, "Id", "Description", shippingOrder.ShipMentId);
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Address", shippingOrder.UserId);
+
+            var pricingList = await GetPricingList();
+            var shipMentList = await GetShipMentList();
+            var userList = await GetUserList();
+
+            ViewData["PricingId"] = new SelectList(pricingList, "Id", "Currency", shippingOrder.PricingId);
+            ViewData["ShipMentId"] = new SelectList(shipMentList, "Id", "Description", shippingOrder.ShipMentId);
+            ViewData["UserId"] = new SelectList(userList, "Id", "UserName", shippingOrder.UserId);
+
             return View(shippingOrder);
         }
 
         // POST: ShippingOrders/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,UserId,PricingId,ShipMentId,AdressTo,PhoneNumber,TotalPrice,Description,OrderDate,ShippingDate,EstimatedDeliveryDate,Status")] ShippingOrder shippingOrder)
@@ -185,30 +200,41 @@ namespace KoiShip.MVCWebApp.Controllers
 
             if (ModelState.IsValid)
             {
-                try
+                bool updateStatus = false;
+
+                using (var httpClient = new HttpClient())
                 {
-                    _context.Update(shippingOrder);
-                    await _context.SaveChangesAsync();
+                    using (var response = await httpClient.PutAsJsonAsync(Const.API + "ShippingOrders/" + id, shippingOrder))
+                    {
+                        if (response.IsSuccessStatusCode)
+                        {
+                            var content = await response.Content.ReadAsStringAsync();
+                            var result = JsonConvert.DeserializeObject<BusinessResult>(content);
+
+                            if (result != null && result.Status == Const.SUCCESS_DELETE_CODE)
+                            {
+                                updateStatus = true;
+                            }
+                        }
+                    }
                 }
-                catch (DbUpdateConcurrencyException)
+
+                if (updateStatus)
                 {
-                    if (!ShippingOrderExists(shippingOrder.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    return RedirectToAction(nameof(Index));
                 }
-                return RedirectToAction(nameof(Index));
             }
-            ViewData["PricingId"] = new SelectList(_context.Pricings, "Id", "Currency", shippingOrder.PricingId);
-            ViewData["ShipMentId"] = new SelectList(_context.ShipMents, "Id", "Description", shippingOrder.ShipMentId);
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Address", shippingOrder.UserId);
+
+            var pricingList = await GetPricingList();
+            var shipMentList = await GetShipMentList();
+            var userList = await GetUserList();
+
+            ViewData["PricingId"] = new SelectList(pricingList, "Id", "Currency", shippingOrder.PricingId);
+            ViewData["ShipMentId"] = new SelectList(shipMentList, "Id", "Description", shippingOrder.ShipMentId);
+            ViewData["UserId"] = new SelectList(userList, "Id", "UserName", shippingOrder.UserId);
+
             return View(shippingOrder);
         }
- 
 
         // POST: ShippingOrders/Delete/5
         [HttpPost, ActionName("Delete")]
@@ -217,25 +243,18 @@ namespace KoiShip.MVCWebApp.Controllers
         {
             bool deleteStatus = false;
 
-            if (ModelState.IsValid)
+            using (var httpClient = new HttpClient())
             {
-                using (var httpClient = new HttpClient())
+                using (var response = await httpClient.DeleteAsync(Const.API + "ShippingOrders/" + id))
                 {
-                    using (var respones = await httpClient.DeleteAsync(Const.API + "ShippingOrders/" + id))
+                    if (response.IsSuccessStatusCode)
                     {
-                        if (respones.IsSuccessStatusCode)
-                        {
-                            var content = await respones.Content.ReadAsStringAsync();
-                            var result = JsonConvert.DeserializeObject<BusinessResult>(content);
+                        var content = await response.Content.ReadAsStringAsync();
+                        var result = JsonConvert.DeserializeObject<BusinessResult>(content);
 
-                            if (result != null && result.Status == Const.SUCCESS_DELETE_CODE)
-                            {
-                                deleteStatus = true;
-                            }
-                            else
-                            {
-                                deleteStatus = false;
-                            }
+                        if (result != null && result.Status == Const.SUCCESS_DELETE_CODE)
+                        {
+                            deleteStatus = true;
                         }
                     }
                 }
@@ -245,15 +264,75 @@ namespace KoiShip.MVCWebApp.Controllers
             {
                 return RedirectToAction(nameof(Index));
             }
-            else
-            {
-                return RedirectToAction(nameof(Delete));
-            }
+
+            return RedirectToAction(nameof(Delete), new { id });
         }
 
-        private bool ShippingOrderExists(int id)
+        // Helper methods to get data for dropdowns
+        private async Task<List<Pricing>> GetPricingList()
         {
-            return _context.ShippingOrders.Any(e => e.Id == id);
+            var pricingList = new List<Pricing>();
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync(Const.API + "Pricings"))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var content = await response.Content.ReadAsStringAsync();
+                        var result = JsonConvert.DeserializeObject<BusinessResult>(content);
+
+                        if (result != null && result.Data != null)
+                        {
+                            pricingList = JsonConvert.DeserializeObject<List<Pricing>>(result.Data.ToString());
+                        }
+                    }
+                }
+            }
+            return pricingList;
+        }
+
+        private async Task<List<ShipMent>> GetShipMentList()
+        {
+            var shipMentList = new List<ShipMent>();
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync(Const.API + "Shipments"))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var content = await response.Content.ReadAsStringAsync();
+                        var result = JsonConvert.DeserializeObject<BusinessResult>(content);
+
+                        if (result != null && result.Data != null)
+                        {
+                            shipMentList = JsonConvert.DeserializeObject<List<ShipMent>>(result.Data.ToString());
+                        }
+                    }
+                }
+            }
+            return shipMentList;
+        }
+
+        private async Task<List<User>> GetUserList()
+        {
+            var userList = new List<User>();
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync(Const.API + "Users"))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var content = await response.Content.ReadAsStringAsync();
+                        var result = JsonConvert.DeserializeObject<BusinessResult>(content);
+
+                        if (result != null && result.Data != null)
+                        {
+                            userList = JsonConvert.DeserializeObject<List<User>>(result.Data.ToString());
+                        }
+                    }
+                }
+            }
+            return userList;
         }
     }
 }

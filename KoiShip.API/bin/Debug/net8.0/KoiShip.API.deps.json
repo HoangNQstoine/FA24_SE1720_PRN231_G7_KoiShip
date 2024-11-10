@@ -1954,7 +1954,10 @@
       },
       "KoiShip.Common/1.0.0": {
         "runtime": {
-          "KoiShip.Common.dll": {}
+          "KoiShip.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "KoiShip.Service/1.0.0": {
@@ -1963,7 +1966,10 @@
           "KoiShip_DB.Data": "1.0.0"
         },
         "runtime": {
-          "KoiShip.Service.dll": {}
+          "KoiShip.Service.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "KoiShip_DB.Data/1.0.0": {
@@ -1974,7 +1980,10 @@
           "Microsoft.Extensions.Configuration.Json": "8.0.0"
         },
         "runtime": {
-          "KoiShip_DB.Data.dll": {}
+          "KoiShip_DB.Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
