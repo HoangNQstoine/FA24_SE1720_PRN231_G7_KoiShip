@@ -302,7 +302,13 @@ C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebA
 C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -535,9 +541,3 @@ C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebA
 C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\obj\Debug\net8.0\KoiShip.MVCWebApp.pdb
 C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\obj\Debug\net8.0\KoiShip.MVCWebApp.genruntimeconfig.cache
 C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\obj\Debug\net8.0\ref\KoiShip.MVCWebApp.dll
-C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Admin\Desktop\project_PRN\FA24_SE1720_PRN231_G7_KoiShip\KoiShip.MVCWebApp\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

@@ -10,7 +10,7 @@ using KoiShip.Service.Base;
 using System.Net.Http;
 using KoiShip_DB.Data.Models;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
-using KoiShip.MVCWebApp.DTO;
+using KoiShip.MVCWebApp.DTO.Request;
 
 namespace KoiShip.MVCWebApp.Controllers
 {
@@ -96,7 +96,7 @@ namespace KoiShip.MVCWebApp.Controllers
         // POST: ShippingOrders/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(ShippingOrderDTO shippingOrder)
+        public async Task<IActionResult> Create(ShippingOrderRequest shippingOrder)
         {
             // Fetch the data again for the dropdowns to preserve selection after post
             var pricingList = await GetPricingList();
@@ -148,10 +148,6 @@ namespace KoiShip.MVCWebApp.Controllers
         // GET: ShippingOrders/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
 
             ShippingOrder shippingOrder = null;
 
@@ -191,7 +187,7 @@ namespace KoiShip.MVCWebApp.Controllers
         // POST: ShippingOrders/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,UserId,PricingId,ShipMentId,AdressTo,PhoneNumber,TotalPrice,Description,OrderDate,ShippingDate,EstimatedDeliveryDate,Status")] ShippingOrder shippingOrder)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,UserId,PricingId,ShipMentId,AdressTo,PhoneNumber,TotalPrice,Description,OrderDate,ShippingDate,EstimatedDeliveryDate,Status")] ShippingOrderEdit shippingOrder)
         {
             if (id != shippingOrder.Id)
             {
@@ -236,6 +232,27 @@ namespace KoiShip.MVCWebApp.Controllers
             return View(shippingOrder);
         }
 
+        public async Task<IActionResult> Delete(int? id)
+        {
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync(Const.API + "ShippingOrders/" + id))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var content = await response.Content.ReadAsStringAsync();
+                        var result = JsonConvert.DeserializeObject<BusinessResult>(content);
+
+                        if (result != null && result.Data != null)
+                        {
+                            var data = JsonConvert.DeserializeObject<ShippingOrder>(result.Data.ToString());
+                            return View(data);
+                        }
+                    }
+                }
+            }
+            return NotFound();
+        }
         // POST: ShippingOrders/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]

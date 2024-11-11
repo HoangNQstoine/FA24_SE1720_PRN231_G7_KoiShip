@@ -1,4 +1,5 @@
 ﻿using KoiShip.Common;
+using KoiShip.MVCWebApp.DTO.Request;
 using KoiShip.Service.Base;
 using KoiShip_DB.Data.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -62,6 +63,10 @@ namespace KoiShip.MVCWebApp.Controllers
         // GET: KoiFish/Create
         public async Task<IActionResult> Create(int id)
         {
+            var categoryList = await GetCategoryList();
+            var userList = await GetUserList();
+            ViewData["CategoryId"] = new SelectList(categoryList, "Id", "Name");
+            ViewData["UserId"] = new SelectList(userList, "Id", "UserName");
             return View();
         }
 
@@ -71,31 +76,51 @@ namespace KoiShip.MVCWebApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("UserId,CategoryId,Name,Weight,Age,ColorPattern,Price,Description,UrlImg,Status")] KoiFish koiFish)
+        public async Task<IActionResult> Create([Bind("UserId,CategoryId,Name,Weight,Age,ColorPattern,Price,Description,UrlImg,Status")] KoiFishCreate koiFish)
         {
-            using (var httpClient = new HttpClient())
+            if (ModelState.IsValid)
             {
-                koiFish.CategoryId = koiFish.CategoryId;    
-                koiFish.UserId = 1;
-                koiFish.CategoryId = 1;
-                var jsonContent = JsonConvert.SerializeObject(koiFish);
-                var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+                bool saveStatus = false;
 
-                using (var response = await httpClient.PostAsync(Const.API + "KoiFishs", content))
+                using (var httpClient = new HttpClient())
                 {
-                    if (response.IsSuccessStatusCode)
+                    using (var response = await httpClient.PostAsJsonAsync(Const.API + "KoiFishs", koiFish))
                     {
-                        return RedirectToAction("Index");
+                        if (response.IsSuccessStatusCode)
+                        {
+                            var content = await response.Content.ReadAsStringAsync();
+                            var result = JsonConvert.DeserializeObject<BusinessResult>(content);
+
+                            if (result != null && result.Status == Const.SUCCESS_DELETE_CODE)
+                            {
+                                saveStatus = true;
+                            }
+                        }
                     }
+                }
+
+                if (saveStatus)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                else
+                {
+                    // You can log the error or show an error message here
+                    ModelState.AddModelError(string.Empty, "Failed to save the shipping order.");
                 }
             }
 
+            var categoryList = await GetCategoryList();
+            var userList = await GetUserList();
+            ViewData["CategoryId"] = new SelectList(categoryList, "Id", "Name", koiFish.CategoryId);
+            ViewData["UserId"] = new SelectList(userList, "Id", "UserName", koiFish.UserId);
             return View(koiFish);
         }
 
         // GET: KoiFish/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            var koiFish = new KoiFish();
             using (var httpClient = new HttpClient())
             {
                 using (var response = await httpClient.GetAsync(Const.API + "KoiFishs/" + id))
@@ -107,13 +132,16 @@ namespace KoiShip.MVCWebApp.Controllers
 
                         if (result != null && result.Data != null)
                         {
-                            var data = JsonConvert.DeserializeObject<KoiFish>(result.Data.ToString());
-                            return View(data);
+                            koiFish = JsonConvert.DeserializeObject<KoiFish>(result.Data.ToString());
                         }
                     }
                 }
             }
-            return NotFound();
+            var categoryList = await GetCategoryList();
+            var userList = await GetUserList();
+            ViewData["CategoryId"] = new SelectList(categoryList, "Id", "Name", koiFish.CategoryId);
+            ViewData["UserId"] = new SelectList(userList, "Id", "UserName", koiFish.UserId);
+            return View(koiFish);
         }
 
         // POST: KoiFish/Edit/5
@@ -121,7 +149,7 @@ namespace KoiShip.MVCWebApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,UserId,CategoryId,Name,Weight,Age,ColorPattern,Price,Description,UrlImg,Status")] KoiFish koiFish)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,UserId,CategoryId,Name,Weight,Age,ColorPattern,Price,Description,UrlImg,Status")] KoiFishEdit koiFish)
         {
             if (id != koiFish.Id)
             {
@@ -141,6 +169,10 @@ namespace KoiShip.MVCWebApp.Controllers
                     }
                 }
             }
+            var categoryList = await GetCategoryList();
+            var userList = await GetUserList();
+            ViewData["CategoryId"] = new SelectList(categoryList, "Id", "Name", koiFish.CategoryId);
+            ViewData["UserId"] = new SelectList(userList, "Id", "UserName", koiFish.UserId);
 
             return View(koiFish);
 
@@ -186,6 +218,50 @@ namespace KoiShip.MVCWebApp.Controllers
             }
 
             return NotFound();
+        }
+
+        private async Task<List<User>> GetUserList()
+        {
+            var userList = new List<User>();
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync(Const.API + "Users"))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var content = await response.Content.ReadAsStringAsync();
+                        var result = JsonConvert.DeserializeObject<BusinessResult>(content);
+
+                        if (result != null && result.Data != null)
+                        {
+                            userList = JsonConvert.DeserializeObject<List<User>>(result.Data.ToString());
+                        }
+                    }
+                }
+            }
+            return userList;
+        }
+
+        private async Task<List<Category>> GetCategoryList()
+        {
+            var userList = new List<Category>();
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync(Const.API + "Categorys"))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var content = await response.Content.ReadAsStringAsync();
+                        var result = JsonConvert.DeserializeObject<BusinessResult>(content);
+
+                        if (result != null && result.Data != null)
+                        {
+                            userList = JsonConvert.DeserializeObject<List<Category>>(result.Data.ToString());
+                        }
+                    }
+                }
+            }
+            return userList;
         }
     }
 }

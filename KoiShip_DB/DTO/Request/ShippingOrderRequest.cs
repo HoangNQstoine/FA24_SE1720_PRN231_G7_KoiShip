@@ -1,15 +1,12 @@
-﻿namespace KoiShip.MVCWebApp.DTO
+﻿namespace KoiShip_DB.Data.DTO.Request
 {
-    public class ShippingOrderDTO
+    public class ShippingOrderRequest
     {
-        public int Id { get; set; }
-
         public int? UserId { get; set; }
 
         public int? PricingId { get; set; }
 
         public int? ShipMentId { get; set; }
-
         public string AdressTo { get; set; }
 
         public string PhoneNumber { get; set; }

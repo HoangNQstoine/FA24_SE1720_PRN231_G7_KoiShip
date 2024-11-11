@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KoiShip.MVCWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+052e08998e0c37a8fdf19c51c52722cc0e84fc6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f87bf7b78196668202e1a94efb5079a5fdfb816")]
 [assembly: System.Reflection.AssemblyProductAttribute("KoiShip.MVCWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KoiShip.MVCWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

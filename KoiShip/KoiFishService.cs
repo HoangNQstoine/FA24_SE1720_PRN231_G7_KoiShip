@@ -3,6 +3,8 @@ using KoiShip_DB.Data;
 using KoiShip_DB.Data.Models;
 using KoiShip.Common;
 using KoiShip.Service;
+using KoiShip_DB.Data.DTO.Request;
+using Azure.Core;
 
 namespace KoiShip.Service
 {
@@ -10,8 +12,8 @@ namespace KoiShip.Service
     {
         Task<IBusinessResult> GetALLKoiFish();
         Task<IBusinessResult> SaveKoiFish(KoiFish KoiFish);
-        Task<IBusinessResult> CreateKoiFish(KoiFish KoiFish);
-        Task<IBusinessResult> UpdateKoiFish(KoiFish KoiFish);
+        Task<IBusinessResult> CreateKoiFish(KoiFishCreate KoiFish);
+        Task<IBusinessResult> UpdateKoiFish(KoiFishEdit KoiFish);
         Task<IBusinessResult> DeleteKoiFish(int idKoiFish);
         Task<IBusinessResult> GetKoiFishById(int idKoiFish);
     }
@@ -25,10 +27,23 @@ namespace KoiShip.Service
             _unitOfWork ??= new UnitOfWork();
         }
 
-        public async Task<IBusinessResult> CreateKoiFish(KoiFish KoiFish)
+        public async Task<IBusinessResult> CreateKoiFish(KoiFishCreate request)
         {
             try
             {
+                var KoiFish = new KoiFish
+                {
+                    UserId = request.UserId,
+                    CategoryId = request.CategoryId,
+                    Name = request.Name,
+                    Description = request.Description,
+                    Weight = request.Weight,
+                    Age = request.Age,
+                    ColorPattern = request.ColorPattern,
+                    Price = request.Price,
+                    UrlImg = request.UrlImg,
+                    Status = request.Status,
+                };
                 var result = await _unitOfWork.KoiFishsRepository.CreateAsync(KoiFish);
                 if (result > 0)
                 {
@@ -148,10 +163,24 @@ namespace KoiShip.Service
             }
         }
 
-        public async Task<IBusinessResult> UpdateKoiFish(KoiFish KoiFish)
+        public async Task<IBusinessResult> UpdateKoiFish(KoiFishEdit request)
         {
             try
             {
+                var KoiFish = new KoiFish
+                {
+                    Id = request.Id,
+                    UserId = request.UserId,
+                    CategoryId = request.CategoryId,
+                    Name = request.Name,
+                    Description = request.Description,
+                    Weight = request.Weight,
+                    Age = request.Age,
+                    ColorPattern = request.ColorPattern,
+                    Price = request.Price,
+                    UrlImg = request.UrlImg,
+                    Status = request.Status,
+                };
                 var result = await _unitOfWork.KoiFishsRepository.UpdateAsync(KoiFish);
                 if (result > 0)
                 {
