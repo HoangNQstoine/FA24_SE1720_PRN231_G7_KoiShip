@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\KoiShip.MVCWebApp.props" />
-</Project>

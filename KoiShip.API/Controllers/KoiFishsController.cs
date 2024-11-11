@@ -1,9 +1,7 @@
-﻿using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using KoiShip.Service;
+﻿using KoiShip.Service;
 using KoiShip.Service.Base;
-using KoiShip_DB.Data.Models;
 using KoiShip_DB.Data.DTO.Request;
+using Microsoft.AspNetCore.Mvc;
 
 namespace KoiShip.API.Controllers
 {
@@ -20,9 +18,9 @@ namespace KoiShip.API.Controllers
 
         // GET: api/KoiFishs
         [HttpGet]
-        public async Task<IBusinessResult> GetKoiFishs()
+        public async Task<IBusinessResult> GetKoiFishs(string? Name, int? Age)
         {
-            return await _KoiFishService.GetALLKoiFish();
+            return await _KoiFishService.SearchKoiFish(Name, Age);
         }
 
         // GET: api/KoiFishs/5

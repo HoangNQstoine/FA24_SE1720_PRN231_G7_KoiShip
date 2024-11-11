@@ -16,11 +16,13 @@ namespace KoiShip.MVCWebApp.Controllers
         }
 
         // GET: KoiFish
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? Name, int? Age)
         {
             using (var httpClient = new HttpClient())
             {
-                using (var response = await httpClient.GetAsync(Const.API + "KoiFishs"))
+                var query = $"KoiFishs?Name={Name}&Age={Age}";
+
+                using (var response = await httpClient.GetAsync(Const.API + query))
                 {
                     if (response.IsSuccessStatusCode)
                     {

@@ -1,95 +1,66 @@
 ﻿@model IEnumerable<KoiShip_DB.Data.Models.ShippingOrder>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Shipping Orders";
 }
 
-<h1>Index</h1>
+<h1>Shipping Orders</h1>
+
+<!-- Search Form -->
+<form method="get" asp-action="Index">
+    <div class="form-group">
+        <label for="PhoneNumber">Phone Number:</label>
+        <input type="text" name="phoneNumber" class="form-control" placeholder="Enter phone number" />
+    </div>
+    <div class="form-group">
+        <label for="TotalPrice">Total Price:</label>
+        <input type="number" name="totalPrice" class="form-control" placeholder="Enter total price" />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-success">Create New</a>
 </p>
+
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.AdressTo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PhoneNumber)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TotalPrice)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.OrderDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ShippingDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EstimatedDeliveryDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Status)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pricing)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ShipMent)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.User)
-            </th>
+            <th>@Html.DisplayNameFor(model => model.AdressTo)</th>
+            <th>@Html.DisplayNameFor(model => model.PhoneNumber)</th>
+            <th>@Html.DisplayNameFor(model => model.TotalPrice)</th>
+            <th>@Html.DisplayNameFor(model => model.Description)</th>
+            <th>@Html.DisplayNameFor(model => model.OrderDate)</th>
+            <th>@Html.DisplayNameFor(model => model.ShippingDate)</th>
+            <th>@Html.DisplayNameFor(model => model.EstimatedDeliveryDate)</th>
+            <th>@Html.DisplayNameFor(model => model.Status)</th>
+            <th>@Html.DisplayNameFor(model => model.Pricing.Currency)</th>
+            <th>@Html.DisplayNameFor(model => model.ShipMent.Description)</th>
+            <th>@Html.DisplayNameFor(model => model.User.Address)</th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.AdressTo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PhoneNumber)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalPrice)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.OrderDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ShippingDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EstimatedDeliveryDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Pricing.Currency)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ShipMent.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.Address)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.AdressTo)</td>
+                <td>@Html.DisplayFor(modelItem => item.PhoneNumber)</td>
+                <td>@Html.DisplayFor(modelItem => item.TotalPrice)</td>
+                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                <td>@Html.DisplayFor(modelItem => item.OrderDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.ShippingDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.EstimatedDeliveryDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                <td>@Html.DisplayFor(modelItem => item.Pricing.Currency)</td>
+                <td>@Html.DisplayFor(modelItem => item.ShipMent.Description)</td>
+                <td>@Html.DisplayFor(modelItem => item.User.Address)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

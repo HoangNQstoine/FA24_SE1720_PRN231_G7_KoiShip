@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj": {}
+    "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\KoiShip.API.csproj": {
+    "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\KoiShip.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\KoiShip.API.csproj",
+        "projectUniqueName": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\KoiShip.API.csproj",
         "projectName": "KoiShip.API",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\KoiShip.API.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\obj\\",
+        "projectPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\KoiShip.API.csproj",
+        "packagesPath": "C:\\Users\\HoangNQ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HoangNQ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\KoiShip.Service.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\KoiShip.Service.csproj"
+              "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\KoiShip.Service.csproj": {
+                "projectPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\KoiShip.Service.csproj"
               },
-              "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj"
+              "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj": {
+                "projectPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj"
               }
             }
           }
@@ -91,24 +91,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj": {
+    "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj",
+        "projectUniqueName": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj",
         "projectName": "KoiShip.Common",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\obj\\",
+        "projectPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj",
+        "packagesPath": "C:\\Users\\HoangNQ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HoangNQ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -156,24 +156,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj": {
+    "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj",
         "projectName": "KoiShip.MVCWebApp",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\obj\\",
+        "projectPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\KoiShip.MVCWebApp.csproj",
+        "packagesPath": "C:\\Users\\HoangNQ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HoangNQ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -189,11 +189,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\KoiShip.API.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\KoiShip.API.csproj"
+              "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\KoiShip.API.csproj": {
+                "projectPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\KoiShip.API.csproj"
               },
-              "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj"
+              "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj": {
+                "projectPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj"
               }
             }
           }
@@ -243,24 +243,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\KoiShip.Service.csproj": {
+    "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\KoiShip.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\KoiShip.Service.csproj",
+        "projectUniqueName": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\KoiShip.Service.csproj",
         "projectName": "KoiShip.Service",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\KoiShip.Service.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\obj\\",
+        "projectPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\KoiShip.Service.csproj",
+        "packagesPath": "C:\\Users\\HoangNQ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HoangNQ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -276,11 +276,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj"
+              "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj": {
+                "projectPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj"
               },
-              "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj"
+              "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj": {
+                "projectPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj"
               }
             }
           }
@@ -315,24 +315,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj": {
+    "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj",
+        "projectUniqueName": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj",
         "projectName": "KoiShip_DB.Data",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\obj\\",
+        "projectPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\KoiShip_DB.Data.csproj",
+        "packagesPath": "C:\\Users\\HoangNQ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip_DB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HoangNQ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -404,7 +404,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -23,4 +23,22 @@ public class ShippingOrdersRepository : GenericRepository<ShippingOrder>
         await _context.SaveChangesAsync();
         return true;
     }
+
+
+    public async Task<List<ShippingOrder>> SearchShippingOrders(string phoneNumber, int? totalPrice)
+    {
+        // Query for matching orders based on phone number and total price.
+        var orders = await _context.ShippingOrders
+                                   .Include(s => s.Pricing)
+                                   .Include(s => s.ShipMent)
+                                   .Include(s => s.User)
+                                   .Where(order => (string.IsNullOrEmpty(phoneNumber) || order.PhoneNumber.Contains(phoneNumber)) &&
+                                                   (!totalPrice.HasValue || order.TotalPrice == totalPrice))
+                                   .ToListAsync();
+
+        return orders;
+    }
+
+
+
 }

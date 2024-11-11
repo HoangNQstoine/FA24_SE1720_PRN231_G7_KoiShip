@@ -5,7 +5,17 @@
 }
 
 <h1>Index</h1>
-
+<form method="get" asp-action="Index">
+    <div class="form-group">
+        <label for="PhoneNumber">Vehicle:</label>
+        <input type="text" name="Vehicle" class="form-control" placeholder="Enter Vehicle" />
+    </div>
+    <div class="form-group">
+        <label for="TotalPrice">Description:</label>
+        <input type="text" name="Description" class="form-control" placeholder="Enter Description" />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
 <p>
     <a asp-action="Create">Create New</a>
 </p>

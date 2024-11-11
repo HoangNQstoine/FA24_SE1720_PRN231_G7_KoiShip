@@ -1,9 +1,7 @@
-﻿using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using KoiShip.Service;
+﻿using KoiShip.Service;
 using KoiShip.Service.Base;
-using KoiShip_DB.Data.Models;
 using KoiShip_DB.Data.DTO.Request;
+using Microsoft.AspNetCore.Mvc;
 namespace KoiShip.API.Controllers
 {
     [Route("api/[controller]")]
@@ -18,10 +16,15 @@ namespace KoiShip.API.Controllers
         }
 
         // GET: api/ShippingOrders
+        //[HttpGet]
+        //public async Task<IBusinessResult> GetShippingOrders()
+        //{
+        //    return await _shippingOrderService.GetALLShippingOrder();
+        //}
         [HttpGet]
-        public async Task<IBusinessResult> GetShippingOrders()
+        public async Task<IBusinessResult> SearchShippingOrders(string? phoneNumber, int? totalPrice)
         {
-            return await _shippingOrderService.GetALLShippingOrder();
+            return await _shippingOrderService.SearchShippingOrders(phoneNumber, totalPrice);
         }
 
         // GET: api/ShippingOrders/5
@@ -35,7 +38,7 @@ namespace KoiShip.API.Controllers
         [HttpPut("{id}")]
         public async Task<IBusinessResult> PutShippingOrder(ShippingOrderEdit shippingOrder)
         {
-            
+
 
             var result = await _shippingOrderService.UpdateShippingOrder(shippingOrder);
 
@@ -47,7 +50,7 @@ namespace KoiShip.API.Controllers
         public async Task<IBusinessResult> PostShippingOrder([FromBody] ShippingOrderRequest shippingOrder)
         {
             var result = await _shippingOrderService.CreateShippingOrder(shippingOrder);
-           
+
 
             return result;
         }
@@ -57,7 +60,7 @@ namespace KoiShip.API.Controllers
         public async Task<IBusinessResult> DeleteShippingOrder(int id)
         {
             var result = await _shippingOrderService.DeleteShippingOrder(id);
-           
+
 
             return result;
         }

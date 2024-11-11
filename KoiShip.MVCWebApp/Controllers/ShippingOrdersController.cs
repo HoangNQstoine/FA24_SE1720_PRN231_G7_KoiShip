@@ -1,29 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using KoiShip.Common;
+using KoiShip.MVCWebApp.DTO.Request;
+using KoiShip.Service.Base;
+using KoiShip_DB.Data.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
-using KoiShip.Common;
-using KoiShip.Service.Base;
-using System.Net.Http;
-using KoiShip_DB.Data.Models;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
-using KoiShip.MVCWebApp.DTO.Request;
 
 namespace KoiShip.MVCWebApp.Controllers
 {
     public class ShippingOrdersController : Controller
     {
         // GET: ShippingOrders
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? phoneNumber, int? totalPrice)
         {
             List<ShippingOrder> orders = new List<ShippingOrder>();
 
             using (var httpClient = new HttpClient())
             {
-                using (var response = await httpClient.GetAsync(Const.API + "ShippingOrders"))
+                // Build the query parameters if search criteria are provided
+                var query = $"ShippingOrders?phoneNumber={phoneNumber}&totalPrice={totalPrice}";
+
+                using (var response = await httpClient.GetAsync(Const.API + query))
                 {
                     if (response.IsSuccessStatusCode)
                     {
@@ -40,6 +37,30 @@ namespace KoiShip.MVCWebApp.Controllers
 
             return View(orders);
         }
+
+        //public async Task<IActionResult> Index()
+        //{
+        //    List<ShippingOrder> orders = new List<ShippingOrder>();
+
+        //    using (var httpClient = new HttpClient())
+        //    {
+        //        using (var response = await httpClient.GetAsync(Const.API + "ShippingOrders"))
+        //        {
+        //            if (response.IsSuccessStatusCode)
+        //            {
+        //                var content = await response.Content.ReadAsStringAsync();
+        //                var result = JsonConvert.DeserializeObject<BusinessResult>(content);
+
+        //                if (result != null && result.Data != null)
+        //                {
+        //                    orders = JsonConvert.DeserializeObject<List<ShippingOrder>>(result.Data.ToString());
+        //                }
+        //            }
+        //        }
+        //    }
+
+        //    return View(orders);
+        //}
 
         // GET: ShippingOrders/Details/5
         public async Task<IActionResult> Details(int? id)
