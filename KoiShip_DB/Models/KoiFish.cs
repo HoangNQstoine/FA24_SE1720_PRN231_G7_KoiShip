@@ -7,17 +7,17 @@ public partial class KoiFish
 {
     public int Id { get; set; }
 
-    public int UserId { get; set; }
+    public int? UserId { get; set; }
 
-    public int CategoryId { get; set; }
+    public int? CategoryId { get; set; }
 
-    public string Name { get; set; } = null!;
+    public string? Name { get; set; }
 
-    public double Weight { get; set; }
+    public double? Weight { get; set; }
 
-    public int Age { get; set; }
+    public int? Age { get; set; }
 
-    public string ColorPattern { get; set; } = null!;
+    public string? ColorPattern { get; set; }
 
     public double? Price { get; set; }
 
@@ -25,11 +25,11 @@ public partial class KoiFish
 
     public string? UrlImg { get; set; }
 
-    public bool Status { get; set; }
+    public bool? Status { get; set; }
 
-    public virtual Category Category { get; set; } = null!;
+    public virtual Category Category { get; set; }
 
-    public virtual ShippingOrderDetail? ShippingOrderDetail { get; set; }
+    public virtual ShippingOrderDetail ShippingOrderDetail { get; set; }
 
-    public virtual User User { get; set; } = null!;
+    public virtual User User { get; set; }
 }

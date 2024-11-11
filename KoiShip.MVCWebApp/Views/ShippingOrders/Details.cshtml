@@ -10,71 +10,71 @@
     <h4>ShippingOrder</h4>
     <hr />
     <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.AdressTo) <!-- Corrected Typo -->
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AdressTo)
         </dt>
-        <dd class="col-sm-10">
+        <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.AdressTo)
         </dd>
-        <dt class="col-sm-2">
+        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.PhoneNumber)
         </dt>
-        <dd class="col-sm-10">
+        <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.PhoneNumber)
         </dd>
-        <dt class="col-sm-2">
+        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.TotalPrice)
         </dt>
-        <dd class="col-sm-10">
+        <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.TotalPrice)
         </dd>
-        <dt class="col-sm-2">
+        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Description)
         </dt>
-        <dd class="col-sm-10">
+        <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Description)
         </dd>
-        <dt class="col-sm-2">
+        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.OrderDate)
         </dt>
-        <dd class="col-sm-10">
+        <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.OrderDate)
         </dd>
-        <dt class="col-sm-2">
+        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.ShippingDate)
         </dt>
-        <dd class="col-sm-10">
+        <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.ShippingDate)
         </dd>
-        <dt class="col-sm-2">
+        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.EstimatedDeliveryDate)
         </dt>
-        <dd class="col-sm-10">
+        <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.EstimatedDeliveryDate)
         </dd>
-        <dt class="col-sm-2">
+        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Status)
         </dt>
-        <dd class="col-sm-10">
+        <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Status)
         </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Pricing.Currency)
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pricing)
         </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Pricing.Currency) <!-- Added Null Check -->
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pricing.Currency)
         </dd>
-        <dt class="col-sm-2">
+        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.ShipMent)
         </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.ShipMent.Description) <!-- Added Null Check -->
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ShipMent.Description)
         </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.UserName)
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.User)
         </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.UserName) <!-- Added Null Check -->
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.User.Address)
         </dd>
     </dl>
 </div>

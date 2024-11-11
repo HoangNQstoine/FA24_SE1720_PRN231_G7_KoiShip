@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "KO5j5iC+8Kz8HTcYMvc3ekEthONVjUg0JNj2T4EjDkg=",
+  "Hash": "DYrB657aCx6g5NJMLTc0/FfVdso+MaiyaE0cahFr8qY=",
   "Source": "KoiShip.MVCWebApp",
   "BasePath": "_content/KoiShip.MVCWebApp",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.API\\KoiShip.API.csproj",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.API\\KoiShip.API.csproj",
       "Version": 2,
       "Source": "KoiShip.API",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,17 +22,17 @@
     {
       "Name": "KoiShip.MVCWebApp\\wwwroot",
       "Source": "KoiShip.MVCWebApp",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KoiShip.MVCWebApp.styles.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KoiShip.MVCWebApp.styles.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "KoiShip.MVCWebApp.styles.css",
       "AssetKind": "All",
@@ -45,13 +45,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KoiShip.MVCWebApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KoiShip.MVCWebApp.styles.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KoiShip.MVCWebApp.bundle.scp.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KoiShip.MVCWebApp.bundle.scp.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "KoiShip.MVCWebApp.bundle.scp.css",
       "AssetKind": "All",
@@ -64,13 +64,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KoiShip.MVCWebApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KoiShip.MVCWebApp.bundle.scp.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\css\\site.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -86,10 +86,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\favicon.ico",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -105,10 +105,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\js\\site.js",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -124,10 +124,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -162,10 +162,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -181,10 +181,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -200,10 +200,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -219,10 +219,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -257,10 +257,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -276,10 +276,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -295,10 +295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -314,10 +314,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -333,10 +333,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -352,10 +352,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -371,10 +371,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -390,10 +390,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -409,10 +409,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -428,10 +428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -447,10 +447,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -466,10 +466,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -485,10 +485,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -504,10 +504,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -523,10 +523,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -580,10 +580,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -599,10 +599,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -618,10 +618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -637,10 +637,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -656,10 +656,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -675,10 +675,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -694,10 +694,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -713,10 +713,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -732,10 +732,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -751,10 +751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -770,10 +770,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -789,10 +789,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -808,10 +808,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -827,10 +827,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -846,10 +846,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -865,10 +865,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -903,10 +903,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -922,10 +922,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -960,10 +960,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -979,10 +979,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -998,10 +998,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1017,10 +1017,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1036,10 +1036,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1055,10 +1055,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1074,10 +1074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1093,10 +1093,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1112,10 +1112,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1131,10 +1131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1150,10 +1150,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1169,10 +1169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1188,10 +1188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "KoiShip.MVCWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\CN8\\PRN231\\FA24_SE1720_PRN231_C7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.MVCWebApp\\wwwroot\\",
       "BasePath": "_content/KoiShip.MVCWebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

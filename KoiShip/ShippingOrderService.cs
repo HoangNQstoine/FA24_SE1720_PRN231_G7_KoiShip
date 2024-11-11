@@ -3,6 +3,8 @@ using KoiShip_DB.Data;
 using KoiShip_DB.Data.Models;
 using KoiShip.Common;
 using KoiShip.Service;
+using KoiShip_DB.Data.DTO.Request;
+using Azure.Core;
 
 namespace KoiShip.Service
 {
@@ -10,8 +12,8 @@ namespace KoiShip.Service
     {
         Task<IBusinessResult> GetALLShippingOrder();
         Task<IBusinessResult> SaveShippingOrder(ShippingOrder shippingOrder);
-        Task<IBusinessResult> CreateShippingOrder(ShippingOrder shippingOrder);
-        Task<IBusinessResult> UpdateShippingOrder(ShippingOrder shippingOrder);
+        Task<IBusinessResult> CreateShippingOrder(ShippingOrderRequest shippingOrder);
+        Task<IBusinessResult> UpdateShippingOrder(ShippingOrderEdit shippingOrder);
         Task<IBusinessResult> DeleteShippingOrder(int idShippingOrder);
         Task<IBusinessResult> GetShippingOrderById(int idShippingOrder);
     }
@@ -25,10 +27,23 @@ namespace KoiShip.Service
             _unitOfWork ??= new UnitOfWork();
         }
 
-        public async Task<IBusinessResult> CreateShippingOrder(ShippingOrder shippingOrder)
+        public async Task<IBusinessResult> CreateShippingOrder(ShippingOrderRequest request)
         {
             try
             {
+                var shippingOrder = new ShippingOrder
+                {
+                    UserId = request.UserId,
+                    PricingId = request.PricingId,
+                    ShipMentId = request.ShipMentId,
+                    AdressTo = request.AdressTo,
+                    PhoneNumber = request.PhoneNumber,
+                    Description = request.Description,
+                    TotalPrice = request.TotalPrice,
+                    OrderDate = request.OrderDate,
+                    ShippingDate = request.ShippingDate,
+                    EstimatedDeliveryDate = request.EstimatedDeliveryDate
+                };
                 var result = await _unitOfWork.ShippingOrdersRepository.CreateAsync(shippingOrder);
                 if (result > 0)
                 {
@@ -148,10 +163,24 @@ namespace KoiShip.Service
             }
         }   
 
-        public async Task<IBusinessResult> UpdateShippingOrder(ShippingOrder shippingOrder)
+        public async Task<IBusinessResult> UpdateShippingOrder(ShippingOrderEdit request)
         {
             try
             {
+                var shippingOrder = new ShippingOrder
+                {
+                    Id = request.Id,
+                    UserId = request.UserId,
+                    PricingId = request.PricingId,
+                    ShipMentId = request.ShipMentId,
+                    AdressTo = request.AdressTo,
+                    PhoneNumber = request.PhoneNumber,
+                    Description = request.Description,
+                    TotalPrice = request.TotalPrice,
+                    OrderDate = request.OrderDate,
+                    ShippingDate = request.ShippingDate,
+                    EstimatedDeliveryDate = request.EstimatedDeliveryDate
+                };
                 var result = await _unitOfWork.ShippingOrdersRepository.UpdateAsync(shippingOrder);
                 if (result > 0)
                 {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KoiShip_DB.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f87bf7b78196668202e1a94efb5079a5fdfb816")]
 [assembly: System.Reflection.AssemblyProductAttribute("KoiShip_DB.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KoiShip_DB.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,4 +14,13 @@ public class ShippingOrdersRepository : GenericRepository<ShippingOrder>
                              .Include(s => s.User)
                              .ToListAsync();
     }
+
+    public async Task<bool> RemoveAsync(ShippingOrder entity)
+    {
+        var shippingOrderDetails = await _context.ShippingOrderDetails.Where(s => s.ShippingOrdersId == entity.Id).ToListAsync();
+        _context.RemoveRange(shippingOrderDetails);
+        _context.Remove(entity);
+        await _context.SaveChangesAsync();
+        return true;
+    }
 }

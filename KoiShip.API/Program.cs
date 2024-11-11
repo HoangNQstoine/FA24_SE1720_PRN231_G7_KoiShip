@@ -14,6 +14,11 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<KoiShipDbContext>();
 builder.Services.AddScoped<IShippingOrderService, ShippingOrderService>();
+builder.Services.AddScoped<IPricingService, PricingService>();
+builder.Services.AddScoped<IKoiFishService, KoiFishService>();
+builder.Services.AddScoped<IShipMentService, ShipMentService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddControllers()
                 .AddJsonOptions(options =>
                 {
