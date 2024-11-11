@@ -12,4 +12,14 @@ public class ShipMentsRepository : GenericRepository<ShipMent>
                              .Include(s => s.User)
                              .ToListAsync();
     }
+    public async Task<List<ShipMent>> SearchShipMent(string? Vehicle, string? Description)
+    {
+        return await _context.Set<ShipMent>()
+                             .Include(s => s.User)
+                             .Where(ment => (string.IsNullOrEmpty(Vehicle) || ment.Vehicle == Vehicle) &&
+                                            (string.IsNullOrEmpty(Description) || ment.Description.Contains(Description)))
+                             .ToListAsync();
+    }
+
+
 }

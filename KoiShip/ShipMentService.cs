@@ -1,10 +1,8 @@
-﻿using KoiShip.Service.Base;
+﻿using KoiShip.Common;
+using KoiShip.Service.Base;
 using KoiShip_DB.Data;
-using KoiShip_DB.Data.Models;
-using KoiShip.Common;
-using KoiShip.Service;
 using KoiShip_DB.Data.DTO.Request;
-using Azure.Core;
+using KoiShip_DB.Data.Models;
 
 namespace KoiShip.Service
 {
@@ -16,6 +14,8 @@ namespace KoiShip.Service
         Task<IBusinessResult> UpdateShipMent(ShipMentEdit ShipMent);
         Task<IBusinessResult> DeleteShipMent(int idShipMent);
         Task<IBusinessResult> GetShipMentById(int idShipMent);
+        Task<IBusinessResult> SearchShipMent(string? Vehicle, string? Description);
+
     }
 
     public class ShipMentService : IShipMentService
@@ -26,7 +26,30 @@ namespace KoiShip.Service
         {
             _unitOfWork ??= new UnitOfWork();
         }
+        public async Task<IBusinessResult> SearchShipMent(string? Vehicle, string? Description)
+        {
+            try
+            {
+                var shippingOrder = await _unitOfWork.ShipMentsRepository.SearchShipMent(Vehicle, Description);
+                if (shippingOrder == null)
+                {
+                    return new BusinessResult(Const.FAIL_DELETE_CODE, "Shipping order not found.");
+                }
 
+                if (shippingOrder != null)
+                {
+                    return new BusinessResult(Const.SUCCESS_DELETE_CODE, "Search ok", shippingOrder);
+                }
+                else
+                {
+                    return new BusinessResult(Const.FAIL_DELETE_CODE, "search ko ok");
+                }
+            }
+            catch (Exception e)
+            {
+                return new BusinessResult(Const.ERROR_EXCEPTION, e.Message);
+            }
+        }
         public async Task<IBusinessResult> CreateShipMent(ShipMentCreate request)
         {
             try

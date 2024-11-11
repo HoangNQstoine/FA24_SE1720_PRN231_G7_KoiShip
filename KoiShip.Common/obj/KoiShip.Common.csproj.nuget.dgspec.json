@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj": {}
+    "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj": {
+    "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj",
+        "projectUniqueName": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj",
         "projectName": "KoiShip.Common",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\project_PRN\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\obj\\",
+        "projectPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\KoiShip.Common.csproj",
+        "packagesPath": "C:\\Users\\HoangNQ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HoangNQ\\Desktop\\New folder\\FA24_SE1720_PRN231_G7_KoiShip\\KoiShip.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HoangNQ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

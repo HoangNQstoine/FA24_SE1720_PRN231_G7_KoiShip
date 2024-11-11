@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using KoiShip.Common;
+using KoiShip.MVCWebApp.DTO.Request;
+using KoiShip.Service.Base;
+using KoiShip_DB.Data.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using KoiShip_DB.Data.Models;
-using KoiShip.Common;
-using KoiShip.Service.Base;
 using Newtonsoft.Json;
-using KoiShip.MVCWebApp.DTO.Request;
 
 namespace KoiShip.MVCWebApp.Controllers
 {
@@ -40,13 +35,15 @@ namespace KoiShip.MVCWebApp.Controllers
         }
 
         // GET: ShipMents
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? Vehicle, string? Description)
         {
             List<ShipMent> ShipMents = new List<ShipMent>();
 
             using (var httpClient = new HttpClient())
             {
-                using (var response = await httpClient.GetAsync(Const.API + "ShipMents"))
+                var query = $"ShipMents?Vehicle={Vehicle}&Description={Description}";
+
+                using (var response = await httpClient.GetAsync(Const.API + query))
                 {
                     if (response.IsSuccessStatusCode)
                     {
@@ -67,7 +64,7 @@ namespace KoiShip.MVCWebApp.Controllers
         // GET: ShipMents/Details/5
         public async Task<IActionResult> Details(int id)
         {
-            var shipMent= await GetDetailAsync(id);
+            var shipMent = await GetDetailAsync(id);
             if (shipMent == null)
             {
                 return NotFound();
