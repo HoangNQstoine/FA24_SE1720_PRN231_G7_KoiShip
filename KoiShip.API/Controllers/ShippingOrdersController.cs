@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using KoiShip.Service;
 using KoiShip.Service.Base;
 using KoiShip_DB.Data.Models;
-using KoiShip_DB.Data.DTO;
+using KoiShip_DB.Data.DTO.Request;
 namespace KoiShip.API.Controllers
 {
     [Route("api/[controller]")]
@@ -33,18 +33,18 @@ namespace KoiShip.API.Controllers
 
         // PUT: api/ShippingOrders/5
         [HttpPut("{id}")]
-        public async Task<IBusinessResult> PutShippingOrder(ShippingOrderDTO shippingOrder)
+        public async Task<IBusinessResult> PutShippingOrder(ShippingOrderEdit shippingOrder)
         {
             
 
-            var result = await _shippingOrderService.UpdateShippingOrder( shippingOrder);
+            var result = await _shippingOrderService.UpdateShippingOrder(shippingOrder);
 
             return result;
         }
 
         // POST: api/ShippingOrders
         [HttpPost]
-        public async Task<IBusinessResult> PostShippingOrder([FromBody] ShippingOrderDTO shippingOrder)
+        public async Task<IBusinessResult> PostShippingOrder([FromBody] ShippingOrderRequest shippingOrder)
         {
             var result = await _shippingOrderService.CreateShippingOrder(shippingOrder);
            

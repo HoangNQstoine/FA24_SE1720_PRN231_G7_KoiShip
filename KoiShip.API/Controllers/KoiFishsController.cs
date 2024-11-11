@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using KoiShip.Service;
 using KoiShip.Service.Base;
 using KoiShip_DB.Data.Models;
+using KoiShip_DB.Data.DTO.Request;
 
 namespace KoiShip.API.Controllers
 {
@@ -33,7 +34,7 @@ namespace KoiShip.API.Controllers
 
         // PUT: api/KoiFishs/5
         [HttpPut("{id}")]
-        public async Task<IBusinessResult> PutKoiFish(KoiFish KoiFish)
+        public async Task<IBusinessResult> PutKoiFish(KoiFishEdit KoiFish)
         {
 
 
@@ -44,7 +45,7 @@ namespace KoiShip.API.Controllers
 
         // POST: api/KoiFishs
         [HttpPost]
-        public async Task<IBusinessResult> PostKoiFish(KoiFish KoiFish)
+        public async Task<IBusinessResult> PostKoiFish(KoiFishCreate KoiFish)
         {
             var result = await _KoiFishService.CreateKoiFish(KoiFish);
 
